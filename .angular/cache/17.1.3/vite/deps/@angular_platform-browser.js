@@ -35,7 +35,8 @@ import {
   provideProtractorTestingSupport,
   withHttpTransferCacheOptions,
   withNoHttpTransferCache
-} from "./chunk-M2VF6NIF.js";
+} from "./chunk-XAD4L67T.js";
+import "./chunk-EW44UWRK.js";
 import {
   getDOM
 } from "./chunk-BA76C74X.js";
