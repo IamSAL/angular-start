@@ -2,7 +2,7 @@
 
 <div *ngFor="let product of products">
   <h3>
-    <a href="s" [title]="product.name + ' details'">
+    <a [routerLink]="['/products', product.id]" [title]="product.name + ' details'">
       {{ product.name }}
     </a>
   </h3>
@@ -11,7 +11,7 @@
 
   <button type="button" (click)="share()">Share</button>
 
-  <app-product-alerts [product]="product"></app-product-alerts>
+  <app-product-alerts [product]="product" (notify)="onNotify()"></app-product-alerts>
 </div>
 <!-- 
 Copyright Google LLC. All Rights Reserved.
