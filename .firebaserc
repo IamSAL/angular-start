@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "angular-start-ca790"
+  },
+  "targets": {
+    "angular-start-ca790": {
+      "hosting": {
+        "angular-start": [
+          "angular-start-ca790"
+        ]
+      }
+    }
+  }
+}

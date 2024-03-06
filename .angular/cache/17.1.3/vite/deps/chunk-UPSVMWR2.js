@@ -30,6 +30,8 @@ import {
   TemplateRef,
   Version,
   ViewContainerRef,
+  __spreadProps,
+  __spreadValues,
   booleanAttribute,
   createNgModule,
   findLocaleData,
@@ -57,13 +59,9 @@ import {
   ɵɵinject,
   ɵɵinjectAttribute,
   ɵɵstyleProp
-} from "./chunk-E2F2CMEP.js";
-import {
-  __spreadProps,
-  __spreadValues
-} from "./chunk-QOHD3WUR.js";
+} from "./chunk-66JZ2FID.js";
 
-// node_modules/@angular/common/fesm2022/common.mjs
+// node_modules/.pnpm/registry.npmjs.org+@angular+common@17.1.3_upxtjkkdblk742obqpjckhieb4/node_modules/@angular/common/fesm2022/common.mjs
 var _DOM = null;
 function getDOM() {
   return _DOM;
@@ -4788,4 +4786,4 @@ export {
    * License: MIT
    *)
 */
-//# sourceMappingURL=chunk-BA76C74X.js.map
+//# sourceMappingURL=chunk-UPSVMWR2.js.map
